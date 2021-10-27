@@ -7,7 +7,6 @@ class Printer extends Thread{
     private Printer() {
     }
 
-    String name = "default";
     private static Object obj = new Object();
 
     public static Printer getInstance() {
